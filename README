@@ -1,0 +1,24 @@
+
+ll that u have to know
+
+this will not work with static binaries...
+so... netcat and other things are safe (safe?)
+
+any file descriptor above 2 will be logged. pay attention with your disk space.
+
+why above 2 ?
+0 = stdin
+1 = stdout
+2 = stderr
+
+if u want to log all these 3 fd , change the code.
+
+BSD Flavored?
+make USE_BSD=1
+
+optlib.c:
+#define LOG "/tmp/optlib.log" -> snif log
+
+u can use ld.so.preload too... but.. it's your own risk.
+
+
