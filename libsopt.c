@@ -25,7 +25,6 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-
 #define _GNU_SOURCE
 
 #ifndef vdprintf

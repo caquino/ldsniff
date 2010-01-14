@@ -27,7 +27,6 @@ all:
 
 all-targets: $(TARGETS)
 
-
 .SUFFIXES: .o .a
 	$(CC) $(CFLAGS) -c $< -o $@ $(DEFINES)
 	
