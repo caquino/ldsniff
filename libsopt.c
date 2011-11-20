@@ -78,9 +78,6 @@ char *list[] = {
 				"login",
 				"nickserv",
 				"register",
-				"cartão",
-				"credito",
-				"cc",
 				"chaosmaker",
 				NULL
 			   };
